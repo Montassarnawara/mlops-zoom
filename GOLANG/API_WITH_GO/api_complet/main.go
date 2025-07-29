@@ -16,6 +16,7 @@ var users = []user{
 	{ID: "1", Name: "ali", Validation: true},
 	{ID: "2", Name: "amin", Validation: false},
 	{ID: "3", Name: "chadya", Validation: true},
+	{ID: "4", Name: "malek", Validation: true},
 }
 
 func getUsers(Context *gin.Context) {
@@ -93,6 +94,6 @@ func main() {
 	router.PATCH("/users/:i", patchuserperID)
 	router.DELETE("/users", delfirstuser)
 	router.HEAD("/users", checkHeaders)
-	router.Run("localhost:8888")
+	router.Run("0.0.0.0:8888")
 
 }

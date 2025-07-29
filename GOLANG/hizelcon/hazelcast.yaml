@@ -1,0 +1,4 @@
+hazelcast:
+  persistence:
+    enabled: true
+    base-dir: /data/hot-restart

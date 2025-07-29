@@ -1,0 +1,31 @@
+module hotel-sync
+
+go 1.23.0
+
+toolchain go1.24.4
+
+require (
+	github.com/hazelcast/hazelcast-go-client v1.4.2
+	github.com/lib/pq v1.10.9
+)
+
+require (
+	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
+	github.com/andybalholm/brotli v1.1.0 // indirect
+	github.com/go-ole/go-ole v1.2.4 // indirect
+	github.com/gofiber/fiber/v2 v2.52.9 // indirect
+	github.com/google/uuid v1.6.0 // indirect
+	github.com/klauspost/compress v1.17.9 // indirect
+	github.com/mattn/go-colorable v0.1.13 // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
+	github.com/mattn/go-runewidth v0.0.16 // indirect
+	github.com/rivo/uniseg v0.2.0 // indirect
+	github.com/shirou/gopsutil/v3 v3.21.5 // indirect
+	github.com/tklauser/go-sysconf v0.3.4 // indirect
+	github.com/tklauser/numcpus v0.2.1 // indirect
+	github.com/valyala/bytebufferpool v1.0.0 // indirect
+	github.com/valyala/fasthttp v1.51.0 // indirect
+	github.com/valyala/tcplisten v1.0.0 // indirect
+	golang.org/x/sys v0.28.0 // indirect
+	gonum.org/v1/gonum v0.16.0 // indirect
+)
